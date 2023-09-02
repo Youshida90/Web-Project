@@ -1,0 +1,131 @@
+body{
+    background: linear-gradient(to top, #282e94 , #3fa7d7 );
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #282e94 , #3fa7d7 );
+    column-gap: 30px;
+}
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #FFF;
+}
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.user_type{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    padding: 10px;
+    outline-color: #0171d3;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    border:none;
+}
+.field input{
+    outline-color: #0171d3;
+    padding: 0 50px;
+    border: 1px solid #CACACA;
+}
+.user-icon,
+.lock-icon,
+.email-icon{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+.field button{
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    color: green;
+    outline: auto;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.form-content .sa .error-msg{
+    margin:10px 0;
+   display: block;
+   background-color: crimson;
+   color: #fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+}

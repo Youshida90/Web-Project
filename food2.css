@@ -1,0 +1,50 @@
+.all-products{
+    width: 100%;
+    height: auto;
+   /*  background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+.Product{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background-color: hsl(216, 46%, 82%);
+    margin: 20px;
+    box-sizing: border-box;
+    
+}
+.img-contaner{
+    width: 100%;
+    height: 60%;
+}
+
+.pro-im{
+    width: 100%;
+    height: 100%;
+}
+.pro-name{
+    font-size: 20px;
+}
+.mony{
+    font-size: 20px;
+}
+.rating{
+    font-size: 18px;
+}
+
+@media screen and(max-widh:1200px){
+    .sum{
+        width: 40%;
+    }
+    
+}
+@media screen and(max-widh:600px){
+    .sum{
+        width: 90%;
+    }
+    
+}
